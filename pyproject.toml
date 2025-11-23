@@ -1,5 +1,5 @@
 [project]
-name = "python-package-cookiecutter"
+name = "agentic-package-cookiecutter"
 version = "2.0.0"
 description = "Add your description here"
 readme = "README.md"
@@ -146,7 +146,7 @@ markers = [
     "cross_platform: marks tests that validate cross-platform compatibility",
 ]
 
-[tool.python-package-cookiecutter.ci]
+[tool.agentic-package-cookiecutter.ci]
 test-python-versions = ["3.13"]
 
 
