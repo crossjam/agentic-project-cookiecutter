@@ -1,4 +1,4 @@
-"""python-package-cookiecutter testing fixtures."""
+"""agentic-package-cookiecutter testing fixtures."""
 
 import json
 from pathlib import Path
@@ -6,7 +6,7 @@ from pathlib import Path
 import pytest
 from cookiecutter.main import cookiecutter as bake
 
-_PROJECT = "python-package-cookiecutter"
+_PROJECT = "agentic-project-cookiecutter"
 
 # Base manifest that all projects should have
 BASE_MANIFEST = [
