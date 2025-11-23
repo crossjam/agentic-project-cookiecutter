@@ -209,7 +209,9 @@ lint.ignore = [
   # assert (S101)
   "S101",
   # subprocess-without-shell-equals-true (S603)
-  "S603"
+  "S603",
+  # First line of docstring should be in imperative mood
+  "D401"
 ]
 
 [tool.ty]
