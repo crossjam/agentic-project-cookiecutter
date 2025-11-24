@@ -201,7 +201,9 @@ lint.ignore = [
   # first-line-ends-in-period (D415)
   "D415",
   # blank-except (BLE001)
-  "BLE001"
+  "BLE001",
+  # First line of docstring should be in imperative mood
+  "D401"
  ]
 
 [tool.ruff.lint.per-file-ignores]
@@ -210,8 +212,6 @@ lint.ignore = [
   "S101",
   # subprocess-without-shell-equals-true (S603)
   "S603",
-  # First line of docstring should be in imperative mood
-  "D401"
 ]
 
 [tool.ty]
