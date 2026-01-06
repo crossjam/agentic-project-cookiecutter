@@ -74,7 +74,13 @@ original repository:
 
 ## Contributing
 
-Found a bug or want to contribute? Please see our [Contributing Guidelines](CONTRIBUTING.md) and feel free to open an issue or pull request.
+**Warning!!** This repo is mainly a personal project and auditionware
+for potential employers. Issues and PRs appreciated but may receive
+slow or untimely consideration. Feel free to fork and forge on!
+
+Found a bug or want to contribute? Please see the [Contributing
+Guidelines](CONTRIBUTING.md) and feel free to open an issue or pull
+request. 
 
 ## License
 
