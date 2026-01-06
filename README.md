@@ -1,13 +1,28 @@
-[![gh:JnyJny/python-package-cookiecutter][python-package-cookiecutter-badge]][python-package-cookiecutter] 
+[![gh:crossjam/python-package-cookiecutter][python-package-cookiecutter-badge]][python-package-cookiecutter] 
 [![releases][release-badge]][releases] 
 [![test-status][test-status-badge]][testing-workflow]
 
-# Python Package Cookiecutter Template
+# (Python Package + Agentic Coding) Cookiecutter Template
+
+_Forked from https://github.com/JnyJny/python-package-cookiecutter_
 
 There are many [cookiecutter][cookiecutter] [templates][templates],
 but this one is mine and I'm sharing it with you. Create complete Python 
 packages with zero configuration - including CLI, testing, documentation, 
-and automated PyPI publishing via GitHub Actions.
+and automated PyPI publishing via GitHub Actions. 
+
+**crossjam supplemental commentary**
+
+This cookiecutter template has been, and is continually, extended to
+incorporate support for agentic coding. A stock AGENTS.md and
+CLAUDE.md are added to the generated as a start. There’s a nod towards
+structure that I’ve found useful, e.g. a plans directory. Further
+features, like selecting AI package dependencies, forthcoming. 
+
+The goal is to generate a cut, connect to one of the more popular
+agentic coding CLIs (Claude Code, Codex, Gemini CLI), and start
+generating code.
+
 
 ## Features
 
@@ -25,11 +40,11 @@ and automated PyPI publishing via GitHub Actions.
 
 ```console
 # With uvx (recommended)
-uvx cookiecutter gh:JnyJny/python-package-cookiecutter
+uvx cookiecutter gh:crossjam/agentic-project-cookiecutter
 
 # Or with pip
 pip install cookiecutter
-cookiecutter gh:JnyJny/python-package-cookiecutter
+cookiecutter gh:crossjam/agentic-project-cookiecutter
 ```
 
 ### Start Developing
@@ -47,7 +62,8 @@ GitHub Pages.
 
 ## Documentation
 
-For detailed information, see the complete documentation:
+For detailed information, see the complete documentation from the
+original repository:
 
 📚 **[https://jnyjny.github.io/python-package-cookiecutter/](https://jnyjny.github.io/python-package-cookiecutter/)**
 
@@ -68,8 +84,8 @@ This template is released under the Apache License 2.0. Generated projects use t
 [python-package-cookiecutter-badge]: https://img.shields.io/badge/Made_With_Cookiecutter-python--package--cookiecutter-green?style=for-the-badge
 [python-package-cookiecutter]: https://github.com/JnyJny/python-package-cookiecutter
 [release-badge]: https://img.shields.io/github/v/release/JnyJny/python-package-cookiecutter?sort=semver&display_name=tag&style=for-the-badge&color=green
-[releases]: https://github.com/JnyJny/python-package-cookiecutter/releases
-[test-status-badge]: https://img.shields.io/github/actions/workflow/status/JnyJny/python-package-cookiecutter/release.yaml?style=for-the-badge&label=Tests
-[testing-workflow]: https://github.com/JnyJny/python-package-cookiecutter/actions/workflows/release.yaml
+[releases]: https://github.com/crossjam/agentic-package-cookiecutter/releases
+[test-status-badge]: https://img.shields.io/github/actions/workflow/status/crossjam/python-package-cookiecutter/release.yaml?style=for-the-badge&label=Tests
+[testing-workflow]: https://github.com/crossjam/python-package-cookiecutter/actions/workflows/release.yaml
 [cookiecutter]: https://cookiecutter.readthedocs.io/en/stable/index.html
 [templates]: https://www.cookiecutter.io/templates
