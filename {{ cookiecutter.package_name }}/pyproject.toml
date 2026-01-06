@@ -11,10 +11,12 @@ repository = "{{ cookiecutter.repository }}"
 requires-python = ">={{ cookiecutter.python_version_min }},<{{ cookiecutter.python_version_max }}"
 dependencies = [
     "loguru",
-    "typer",
+    "loguru-config @ git+https://github.com/crossjam/loguru-config",
+    "platformdirs",
 {%- if cookiecutter.use_pydantic_settings %}
     "pydantic_settings",
 {%- endif %}
+    "typer"
 ]
 classifiers = [
   "Development Status :: 4 - Beta",

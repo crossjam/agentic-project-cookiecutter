@@ -7,6 +7,7 @@ import sys
 
 import typer
 from loguru import logger
+from loguru_config import LoguruConfig
 
 from .self_subcommand import cli as self_cli
 
