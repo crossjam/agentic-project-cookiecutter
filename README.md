@@ -82,8 +82,8 @@ This template is released under the Apache License 2.0. Generated projects use t
 
 <!-- Links -->
 [python-package-cookiecutter-badge]: https://img.shields.io/badge/Made_With_Cookiecutter-python--package--cookiecutter-green?style=for-the-badge
-[python-package-cookiecutter]: https://github.com/JnyJny/python-package-cookiecutter
-[release-badge]: https://img.shields.io/github/v/release/JnyJny/python-package-cookiecutter?sort=semver&display_name=tag&style=for-the-badge&color=green
+[python-package-cookiecutter]: https://github.com/crossjam/agentic-project-cookiecutter
+[release-badge]: https://img.shields.io/github/v/release/crossjam/agentic-project-cookiecutter?sort=semver&display_name=tag&style=for-the-badge&color=green
 [releases]: https://github.com/crossjam/agentic-project-cookiecutter/releases
 [test-status-badge]: https://img.shields.io/github/actions/workflow/status/crossjam/python-package-cookiecutter/release.yaml?style=for-the-badge&label=Tests
 [testing-workflow]: https://github.com/crossjam/agentic-project-cookiecutter/actions/workflows/release.yaml
